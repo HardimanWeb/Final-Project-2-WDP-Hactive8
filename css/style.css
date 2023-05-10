@@ -6,3 +6,64 @@
   font-family: "nunito", sans-serif;
   color: #234cad;
 }
+
+.menu-navbar > li > a {
+  color: #234cad !important;
+}
+.menu-navbar > li {
+  padding-right: 40px;
+}
+
+#button-log .button {
+  border-radius: 40px !important;
+  padding: 6px 25px 8px 25px !important;
+}
+
+#but-login {
+  color: #234cad;
+  border-color: #234cad;
+}
+
+#but-login:hover {
+  background-color: #e7ebf4;
+}
+
+#but-sign {
+  color: #234cad;
+  background-color: #f2f6ff;
+  border: none;
+}
+
+#but-sign:hover {
+  background-color: #e7ebf4;
+}
+
+#but-app {
+  border-radius: 40px !important;
+  padding: 6px 25px 8px 25px !important;
+  color: #234cad;
+  border-color: #234cad;
+}
+
+#but-app:hover {
+  background-color: #e7ebf4;
+}
+
+.btn-menu {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  border: none;
+  padding: 8px;
+}
+
+.btn-menu > span {
+  color: #234cad !important;
+}
+
+#div1 {
+  background-color: #f2f6ff !important;
+}
+
+.text-me {
+  margin: 15px !important;
+}
