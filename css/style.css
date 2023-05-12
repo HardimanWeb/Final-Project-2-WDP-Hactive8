@@ -78,7 +78,7 @@ header {
   flex-direction: column;
   justify-content: center;
 }
-.card-product {
+.card-product{
   border-radius: 60px;
   background: #f2f6ff;
   width: 575px;
@@ -147,6 +147,20 @@ header {
   }
   .card3 {
     width: 80%;
+  }
+}
+@media screen and (max-width: 500px){
+  .card-content,.card1, .product,.card-product img{
+  width: 100%;
+  }
+  .card2{
+    width: 90%;
+  }
+  .card3{
+    width: 80%;
+  }
+ {
+    width: 100%;
   }
 }
 

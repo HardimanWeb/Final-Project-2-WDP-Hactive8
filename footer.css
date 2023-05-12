@@ -1,0 +1,131 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+*{
+    margin: 0;
+
+}
+.container-content{
+    margin: 30px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 3%;
+    bottom: 40%;
+    background: #F2F6FF;
+    border-radius: 60px;
+    width: 90%;    
+}
+
+.title{
+        font-family: 'Nunito';
+        position: absolute;
+        left: 27.1%;
+        right: 27.02%;
+        top: 19.58%;
+        font-weight: bold;
+        font-size: 55px;
+        text-align: center;
+        color: #234CAD;
+        width: 50%;
+}
+
+.text{
+    font-family: 'Nunito'; 
+    position: absolute;
+    left: 36.05%;
+    right: 35.89%;
+    top: 40.73%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #234CAD;
+}
+
+.d-flex{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 58%;
+    bottom: 30%;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 10px;
+    padding-bottom: 370px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 70px 0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 58%;
+    bottom: 30%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-family: 'Nunito';
+    font-size: 24px;
+    color: #234CAD;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+    font-weight: bold;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-family: 'Nunito';
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #234CAD;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+
+.tombol {
+    position: absolute;
+    left: 89%;
+    right: 2%;
+    top: 15.38%;
+    color: #F2F6FF;
+    background: #234CAD;
+    border-radius: 12.5px;
+}
+
+@media screen and (max-width: 1330px) {
+    .title {
+        top: 0;
+        text-align: center;
+    }
+    .text {
+        top: 50%;
+    }
+}
