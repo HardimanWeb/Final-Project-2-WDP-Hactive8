@@ -218,6 +218,10 @@ header {
   padding: 20px;
   border-radius: 18px;
 }
+.input-container{
+  width: 80%;
+  margin: 0 auto;
+}
 .contact .content-contact h1 {
   font-weight: 700;
   font-size: 48px;
@@ -247,7 +251,7 @@ footer li {
 
 
 @media screen and (max-width: 500px){
-  .card-content,.card1, .product,.card-product img, .features  .card-features img{
+  .card-content,.card1, .product,.card-product img, .features  .card-features img,.input-container{
   width: 100%;
   }
   .card2{
@@ -263,6 +267,7 @@ footer li {
   .features .content h1{
   font-size: 2.5em;
   }
+
 }
 
 @media screen and (max-width: 1000px) {
