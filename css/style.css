@@ -6,8 +6,16 @@
   font-family: "nunito", sans-serif;
   color: #234cad;
 }
-
-
+.navbar {
+  margin: 20px;
+}
+header {
+  width: 100%;
+  border: 1px solid transparent;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
 .menu-navbar > li > a {
   color: #234cad !important;
 }
@@ -64,84 +72,114 @@
 #div1 {
   background-color: #f2f6ff !important;
 }
-
-.text-me {
-  margin: 15px !important;
-=======
-.card-product{
-  border-radius: 60px;
-  background: #F2F6FF;
-  width:575px;
-  height:575px;
+.container-content .content {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.card-content{
+.card-product {
+  border-radius: 60px;
+  background: #f2f6ff;
+  width: 575px;
+  height: 575px;
+}
+.card-content {
   width: 538px;
   height: 360px;
 }
-.card1{
+.card1 {
   width: 438px;
   border-radius: 25px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-.card2{
+.card2 {
   width: 350px;
-  border-radius: 20px;    
-  background-color: #FFFFFF;
+  border-radius: 20px;
+  background-color: #ffffff;
 }
-.card3{
+.card3 {
   width: 262px;
   border-radius: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-.product .content h2{
+.product .content h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
 }
-.product .content{
+.product .content {
   width: 340px;
-margin-left:200px;
+  margin-left: 200px;
 }
-.product button{
-height: 65px;
-width: 200px;
-border-radius: 32.5px;
-border: 2px solid #234CAD;
-font-weight: 700;
+.product button {
+  height: 65px;
+  width: 200px;
+  border-radius: 32.5px;
+  border: 2px solid #234cad;
+  font-weight: 700;
 }
 
-.features{
+.features {
   margin-top: 140px;
 }
-.features .content h1{
-font-size: 48px;
-font-weight: 700;
-line-height: 56px;
+.features .content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
 }
-.features .content p{
-width:425px;
-height:52px;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;  
+.features .content p {
+  width: 425px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+@media screen and (max-width: 500px) {
+  .card-content,
+  .card1,
+  .product,
+  .card-product img {
+    width: 100%;
+  }
+  .card2 {
+    width: 90%;
+  }
+  .card3 {
+    width: 80%;
+  }
 }
 
-@media screen and (max-width: 1000px){
-  .product .row{
-      margin: 0 auto;
-     
+@media screen and (max-width: 1000px) {
+  .product .row {
+    margin: 0 auto;
   }
-  .product .content{
-     margin:20px auto;
+  .product .content {
+    margin: 20px auto;
   }
-  .features{
-      margin-top: 80px;
+  .features {
+    margin-top: 80px;
+  }
+  .content-banner .content {
+    text-align: center;
+  }
+  .content-banner .content h1,
+  .content p,
+  .container-banner img {
+    width: 100%;
+  }
+  .container-content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .container-content .content {
+    text-align: center;
+    margin-top: 10px;
   }
 }
-@media screen and (min-width: 1000px){   
-.product .content{
-  margin:20px auto;
-}
-
-
+@media screen and (min-width: 1000px) {
+  .product .content {
+    margin: 20px auto;
+  }
 }
