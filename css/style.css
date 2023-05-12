@@ -63,6 +63,20 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;  
 }
+@media screen and (max-width: 500px){
+  .card-content,.card1, .product,.card-product img{
+  width: 100%;
+  }
+  .card2{
+    width: 90%;
+  }
+  .card3{
+    width: 80%;
+  }
+ {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 1000px){
   .product .row{
