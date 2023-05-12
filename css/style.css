@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+  color: #234cad;
+}
+
+
+.menu-navbar > li > a {
+  color: #234cad !important;
+}
+.menu-navbar > li {
+  padding-right: 40px;
+}
+
+#button-log .button {
+  border-radius: 40px !important;
+  padding: 6px 25px 8px 25px !important;
+}
+
+#but-login {
+  color: #234cad;
+  border-color: #234cad;
+}
+
+#but-login:hover {
+  background-color: #e7ebf4;
+}
+
+#but-sign {
+  color: #234cad;
+  background-color: #f2f6ff;
+  border: none;
+}
+
+#but-sign:hover {
+  background-color: #e7ebf4;
+}
+
+#but-app {
+  border-radius: 40px !important;
+  padding: 6px 25px 8px 25px !important;
+  color: #234cad;
+  border-color: #234cad;
+}
+
+#but-app:hover {
+  background-color: #e7ebf4;
+}
+
+.btn-menu {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  border: none;
+  padding: 8px;
+}
+
+.btn-menu > span {
+  color: #234cad !important;
+}
+
+#div1 {
+  background-color: #f2f6ff !important;
+}
+
+.text-me {
+  margin: 15px !important;
+}
+.card-product{
+  border-radius: 60px;
+  background: #F2F6FF;
+  width:575px;
+  height:575px;
+}
+.card-content{
+  width: 538px;
+  height: 360px;
+}
+.card1{
+  width: 438px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+.card2{
+  width: 350px;
+  border-radius: 20px;    
+  background-color: #FFFFFF;
+}
+.card3{
+  width: 262px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+.product .content h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.product .content{
+  width: 340px;
+margin-left:200px;
+}
+.product button{
+height: 65px;
+width: 200px;
+border-radius: 32.5px;
+border: 2px solid #234CAD;
+font-weight: 700;
+}
+
+.features{
+  margin-top: 140px;
+}
+.features .content h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+}
+.features .content p{
+width:425px;
+height:52px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;  
+}
+@media screen and (max-width: 500px){
+  .card-content,.card1, .product,.card-product img{
+  width: 100%;
+  }
+  .card2{
+    width: 90%;
+  }
+  .card3{
+    width: 80%;
+  }
+ {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .product .row{
+      margin: 0 auto;
+     
+  }
+  .product .content{
+     margin:20px auto;
+  }
+  .features{
+      margin-top: 80px;
+  }
+}
+@media screen and (min-width: 1000px){   
+.product .content{
+  margin:20px auto;
+}
+
+
+}
