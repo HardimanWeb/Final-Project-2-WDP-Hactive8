@@ -136,6 +136,114 @@ header {
   line-height: 26px;
 }
 
+
+.about .img-card {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+}
+
+.about .content {
+  padding: 0 40px;
+}
+
+.about .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.pricing .content {
+  margin-bottom: 75px;
+}
+
+.pricing .span {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.pricing .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.pricing .card {
+  margin: 20px;
+}
+.pricing h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+  color:#234cad;
+}
+
+
+
+.pricing .no-border {
+  border: none;
+  background-color: #f2f6ff;
+  border-radius: 60px;
+}
+
+.pricing .card-mid {
+  border: 2px solid #234cad;
+  background-color: #ffffff;
+  border-radius: 60px;
+}
+
+.pricing .card-mid button ,.about button {
+  border: 2px solid #234cad;
+  border-radius: 35px;
+  background-color: transparent;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing .no-border button {
+  border: none;
+  border-radius: 35px;
+  background-color: #ffff;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact .content-contact {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+  padding: 75px;
+}
+.contact .content-contact input {
+  border: none;
+  padding: 20px;
+  border-radius: 18px;
+}
+.contact .content-contact h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+footer {
+  padding: 30px 75px;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+}
+footer .content {
+  padding: 0 75px;
+}
+footer a {
+  text-decoration: none;
+  color: #234cad;
+}
+
+footer li {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-bottom: 8px;
+}
+
+
 @media screen and (max-width: 500px){
   .card-content,.card1, .product,.card-product img, .features  .card-features img{
   width: 100%;
